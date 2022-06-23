@@ -1,0 +1,79 @@
+body{
+   height: 100vh;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   background-color: hwb(185 10% 32%);
+   background-image: url(images/bg-pattern-top.svg),
+   url(images/bg-pattern-bottom.svg) ;
+   background-repeat: no-repeat,no-repeat;
+background-position: right 35vw bottom 45vh,left 44vw top 40vh ;
+   font-family: 'Kumbh Sans', sans-serif;
+}
+.pattern{
+    border-radius: 10px 10px 0 0  ;
+    width: 300px;
+}
+.card{
+
+    width: 300px;
+
+}
+.imag{
+    border-radius: 50%;
+    border: 5px solid white;
+}
+.top-img{
+    display: flex;
+justify-content: center;
+align-items: center;
+}
+.card-bottom{
+    background-color: white;
+    border-radius: 0 0 10px 10px;
+    margin-top: -55px;
+
+}
+.center{
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+
+
+}
+.age{
+    display: inline-block;
+    font-weight: 400;
+ color: hsl(0, 0%, 59%);
+    font-size: 18px;
+}
+.state{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.numbers{
+    border-top: 1px solid hsla(0, 0%, 59%,0.418);
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 0 20px;
+    margin-top: 25px;
+    font-size: 18px;
+    font-weight: 700;
+    color:  hsl(227, 10%, 46%);
+}
+.city{
+    font-weight: 400;
+    font-size: 15px;
+    color: hsl(0, 0%, 59%);
+}
+.subNum{
+    font-weight: 400;
+    font-size: 10px;
+    letter-spacing: 2px;
+    color: hsl(229, 23%, 23%);
+}
+p{
+    font-weight: 700;
+}
